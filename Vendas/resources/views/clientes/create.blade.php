@@ -1,20 +1,16 @@
 @extends ('layouts.principal')
 
-@section('titulo', 'Criação de um novo produto')
+@section('titulo', 'Criação de um novo cliente')
 
 @section ('conteudo')
-    <form action="{{route('produtos.store')}}" method="POST">
+    <form action="{{route('clientes.store')}}" method="POST">
         <input type="hidden" name="_token" value="{{csrf_token()}}">
         Id: <input type="text" name="id"><br><br>
         Nome: <input type="text" name="nome"><br><br>
-        Preço: <input type="text" name="preco"><br><br>
-        <input type="submit">
+        Cnpj: <input type="text" name="cnpj"><br><br>
+        
+        <button type="submit" name="button">Criar Cliente</button>
 
     </form>
 @endsection
 
-
-
-
-        
-    

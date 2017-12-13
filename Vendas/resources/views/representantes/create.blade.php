@@ -1,8 +1,9 @@
-<html>
-    <head>
-        <title>Representantes - Criar</title>
-    </head>
-    <body>
+@extends ('layouts.principal')
+
+@section('titulo', 'Detalhes dos Representantes')
+
+@section ('conteudo')
+
         <form action="{{route('representantes.store')}}" method="POST">
             <input type="hidden" name="_token" value="{{csrf_token()}}">
             Nome: <input type="text" name="nome"><br>
@@ -14,6 +15,4 @@
         
         </form>
         
-    </body>
-    
-</html>
+    @endsection

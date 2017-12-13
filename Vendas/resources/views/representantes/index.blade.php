@@ -1,11 +1,8 @@
-<html>
-    <head>
-        <title>Representantes</title>
-    </head>
-    <body>
+@extends ('layouts.principal')
+
+@section('titulo', 'Detalhes dos Representantes')
+
+@section ('conteudo')
         <a href= "{{route('representantes.create')}}">Criar Representante</a>
         
-    </body>
-    
-</html>
-
+    @endsection

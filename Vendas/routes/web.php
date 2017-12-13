@@ -13,11 +13,10 @@
 
 Route::get('/', function () {  //closure
     return view('welcome');
-});
+}) ->name('home');
 
-Route::get('/clientes', 'ClientesController@exibirClientes');
-Route::get('/clientes/{id}', 'ClientesController@detalhesCliente') ->name ('detalhesCliente');
 
 //Resource Controller -> Já tras os metodos e rotas
+Route::resource('/clientes', 'ClientesController');
 Route::resource('/produtos', 'ProdutosController');
 Route::resource('/representantes', 'RepresentantesController');
