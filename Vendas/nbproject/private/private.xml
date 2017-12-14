@@ -5,9 +5,13 @@
         <group>
             <file>file:/C:/Users/hellenms/Code/Vendas/resources/views/produtos/show.blade.php</file>
             <file>file:/C:/Users/hellenms/Code/Vendas/routes/web.php</file>
+            <file>file:/C:/Users/hellenms/Code/Vendas/resources/views/representantes/index.blade.php</file>
+            <file>file:/C:/Users/hellenms/Code/Vendas/app/Http/Controllers/ClientesController.php</file>
+            <file>file:/C:/Users/hellenms/Code/Vendas/resources/views/clientes/create.blade.php</file>
+            <file>file:/C:/Users/hellenms/Code/Vendas/resources/views/clientes/show.blade.php</file>
             <file>file:/C:/Users/hellenms/Code/Vendas/app/Http/Controllers/ProdutosController.php</file>
             <file>file:/C:/Users/hellenms/Code/Vendas/resources/views/produtos/index.blade.php</file>
-            <file>file:/C:/Users/hellenms/Code/Vendas/app/Http/Controllers/ClientesController.php</file>
+            <file>file:/C:/Users/hellenms/Code/Vendas/resources/views/representantes/create.blade.php</file>
             <file>file:/C:/Users/hellenms/Code/Vendas/resources/views/clientes/index.blade.php</file>
             <file>file:/C:/Users/hellenms/Code/Vendas/resources/views/produtos/create.blade.php</file>
         </group>

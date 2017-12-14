@@ -93,8 +93,23 @@ class ProdutosController extends Controller
             ],
             
         ];
+        
+        $produto = [
+         "id" => 0,
+         "nome" => "",
+         "preco" => 000000000000
+     ];
+
+     for ($i=0;$i<count($lista_produtos);$i++){
+         if($lista_produtos[$i]['id'] == $id){
+             $produto = $lista_produtos[$i];
+         }
+     }
+        
+        
+        
         return view('produtos.show', [
-          'produto' => $lista_produtos
+          'produto' => $produto
         ]);
         
         

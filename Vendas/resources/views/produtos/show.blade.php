@@ -13,13 +13,13 @@
                     <th>Preço</th>
                 </thead>
                 <tbody>
-            @for($i=0; $i < count($produto); $i++)
+            
             <tr>
-                <td>{{$produto[$i]['id']}}</td>
-                <td>{{$produto[$i]['nome']}}</td>
-                <td>{{$produto[$i]['preco']}}</td>
+                <td>{{$produto['id']}}</td>
+                <td>{{$produto['nome']}}</td>
+                <td>{{$produto['preco']}}</td>
             </tr>
-            @endfor
+            
                 </tbody>
             </table>
             

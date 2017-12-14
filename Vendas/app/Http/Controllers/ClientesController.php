@@ -90,10 +90,20 @@ class ClientesController extends Controller
             ],
          ];
      
-     
+          $cliente = [
+         "id" => 0,
+         "nome" => "",
+         "cnpj" => 000000000000
+     ];
+
+     for ($i=0;$i<count($clientes);$i++){
+         if($clientes[$i]['id'] == $id){
+             $cliente = $clientes[$i];
+         }
+     }
      
         return view ('clientes.show', [
-            'cliente' => $clientes
+            'cliente' => $cliente
             
                 ]);
         
